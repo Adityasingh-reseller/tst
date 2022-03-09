@@ -1,0 +1,8 @@
+Package: gphisher
+Version: 1.0
+Installed-Size: 5400
+Architecture: all
+Maintainer: @firerepo
+Depends: php, wget, git, curl, resolv-conf, proot
+Homepage: https://github.com/firerepo/gphisher
+Description: An automated powefull game phishing tool with 5+ games. This Tool is made for educational purpose only !
