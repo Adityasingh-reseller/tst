@@ -317,7 +317,7 @@ site_pubg() {
 
 	case $REPLY in 
 		1 | 01)
-			website="jujutsub"
+			website="jujutsup"
 			mask='http://pubg-x-jujutsu-kaisen-limited-rewards'
 			tunnel_menu;;
 		3 | 02)
